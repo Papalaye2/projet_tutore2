@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.ges_institut"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="18" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.ges_institut.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.ges_institut.Ins_can_Activity"
+            android:label="@string/title_activity_ins_can_" >
+        </activity>
+        <activity
+            android:name="com.example.ges_institut.Presen_Activity"
+            android:label="@string/title_activity_presen_" >
+        </activity>
+        <activity
+            android:name="com.example.ges_institut.Detailcv_Activity"
+            android:label="@string/title_activity_detailcv_" >
+        </activity>
+        <activity
+            android:name="com.example.ges_institut.Compo_cv_Activity"
+            android:label="@string/title_activity_compo_cv_" >
+        </activity>
+        <activity
+            android:name="com.example.ges_institut.Edit_profil_Activity"
+            android:label="@string/title_activity_edit_profil_" >
+        </activity>
+        <activity
+            android:name="com.example.ges_institut.Work_Expe_Activity"
+            android:label="@string/title_activity_work__expe_" >
+        </activity>
+        <activity
+            android:name="com.example.ges_institut.Langue_Activity"
+            android:label="@string/title_activity_langue_" >
+        </activity>
+        <activity
+            android:name="com.example.ges_institut.Hobbies_Activity"
+            android:label="@string/title_activity_hobbies_" >
+        </activity>
+        <activity
+            android:name="com.example.ges_institut.Education_Activity"
+            android:label="@string/title_activity_education_" >
+        </activity>
+    </application>
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+</manifest>

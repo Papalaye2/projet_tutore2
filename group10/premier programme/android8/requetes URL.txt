@@ -1,0 +1,8 @@
+http://127.0.0.1/android/connexion.php?login=pdieye&password=passer
+
+
+http://127.0.0.1/android/inscription.php?prenom=Assane&nom=SECK&genre=Homme&diplome=Telecom&formation=Master
+
+http://127.0.0.1/android/notes.php?matricule=1
+
+ 

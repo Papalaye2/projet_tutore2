@@ -1,0 +1,23 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/action_settings"/>
+    
+     
+     <item android:id="@+id/Offres" 
+         android:orderInCategory="100" 
+         android:title="OFFRES">
+         <menu>
+             <item android:id="@+id/Ajoutoffre" android:title="Ajouter une offre"/>
+             <item android:id="@+id/Voiroffre" android:title="Voir offres"/>
+             
+         </menu>
+        
+         
+     </item>
+     <item android:id="@+id/postulant" android:title="Voir mes postulants"></item>
+
+</menu>

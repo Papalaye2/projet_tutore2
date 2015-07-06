@@ -1,0 +1,126 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".InscriptionActivity" >
+
+    <EditText
+        android:id="@+id/txttel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/txtadresse"
+        android:layout_below="@+id/txtadresse"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:hint="Numéro de téléphone" />
+
+    <EditText
+        android:id="@+id/txtnom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:ems="10"
+        android:hint="Entrez votre nom" />
+
+    <EditText
+        android:id="@+id/txtprenom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/txtadresse"
+        android:layout_below="@+id/txtnom"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:hint="Entrez votre prénom" >
+
+        <requestFocus />
+    </EditText>
+
+    <EditText
+        android:id="@+id/txtadresse"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/txtprenom"
+        android:layout_marginTop="19dp"
+        android:ems="10"
+        android:hint=" Entrez votre adresse" />
+
+    <Button
+        android:id="@+id/btback"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/btinscrire"
+        android:layout_alignBottom="@+id/btinscrire"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="41dp"
+        android:text="Retour" />
+
+    <RadioGroup
+        android:id="@+id/radioGroup5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/txtlogin"
+        android:layout_alignRight="@+id/txtpwd" >
+    </RadioGroup>
+
+    <RadioButton
+        android:id="@+id/btfeme"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/bthome"
+        android:layout_below="@+id/bthome"
+        android:text="FEMME" />
+
+    <RadioButton
+        android:id="@+id/bthome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/txttel"
+        android:layout_below="@+id/txttel"
+        android:layout_marginTop="14dp"
+        android:checked="true"
+        android:text="HOMME" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/btfeme"
+        android:layout_alignLeft="@+id/txtlogin"
+        android:text="SEXE"
+        android:textSize="15dp" />
+
+    <Button
+        android:id="@+id/btinscrire"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/txtpwd"
+        android:layout_below="@+id/txtpwd"
+        android:layout_marginTop="14dp"
+        android:text="S&apos;inscrire" />
+
+    <EditText
+        android:id="@+id/txtpwd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/txtlogin"
+        android:ems="10"
+        android:hint="Entrez votre password"
+        android:inputType="textPassword" />
+
+    <EditText
+        android:id="@+id/txtlogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/btfeme"
+        android:ems="10"
+        android:hint="Entrez votre Login" />
+
+</RelativeLayout>

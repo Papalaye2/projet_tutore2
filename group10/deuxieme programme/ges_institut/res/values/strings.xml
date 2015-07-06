@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">ges_institut</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_ins_can_">Activity_Ins_can</string>
+    <string name="title_activity_presen_">Activity_presen</string>
+    <string name="MenuEditionCV">EditionCV</string>
+    <string name="title_activity_detailcv_">Activity_Detail_cv</string>
+    <string name="title_activity_compo_cv_">Activity_Compo_cv</string>
+    <string name="title_activity_edit_profil_">Activity_Edit_profil</string>
+    <string name="title_activity_work__expe_">Activity_Work_Expe</string>
+    <string name="title_activity_langue_">Activity_Langue</string>
+    <string name="title_activity_hobbies_">Activity_Hobbies</string>
+    <string name="title_activity_education_">Activity_Education</string>
+
+</resources>
